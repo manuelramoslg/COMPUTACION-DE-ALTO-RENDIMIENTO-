@@ -32,23 +32,23 @@
 
 - 1 threads:
   - `./masker -n 10 -t 1 /user/cruz/DipBD/2017-2/AC03/images/ash.png ash_blur_1_threads.png`
-  - 3.455196   
+  - **3.455196**   
 
 - 2 threads:
   - `./masker -n 10 -t 2 /user/cruz/DipBD/2017-2/AC03/images/ash.png ash_blur_2_threads.png`
-  - 2.067860
+  - **2.067860**
 
 - 4 threads:
   - `./masker -n 10 -t 4 /user/cruz/DipBD/2017-2/AC03/images/ash.png ash_blur_4_threads.png`
-  - 0.995155
+  - **0.995155**
 
 - 8 threads:
   - `./masker -n 10 -t 8 /user/cruz/DipBD/2017-2/AC03/images/ash.png ash_blur_8_threads.png`
-  - 0.601378
+  - **0.601378**
 
 - 16 threads:
   - `./masker -n 10 -t 16 /user/cruz/DipBD/2017-2/AC03/images/ash.png ash_blur_16_threads.png`
-  -  0.688396
+  -  **0.688396**
 
 ### Original
 
@@ -62,23 +62,23 @@
 
 - 1 threads:
   - `./masker -n 10 -t 1 /user/cruz/DipBD/2017-2/AC03/images/chrono.png chrono_blur_1_threads.png`
-  - 47.975390   
+  - **47.975390**  
 
 - 2 threads:
   - `./masker -n 10 -t 2 /user/cruz/DipBD/2017-2/AC03/images/chrono.png chrono_blur_2_threads.png`
-  - 28.555160
+  - **28.555160**
 
 - 4 threads:
   - `./masker -n 10 -t 4 /user/cruz/DipBD/2017-2/AC03/images/chrono.png chrono_blur_4_threads.png`
-  - 15.179359
+  - **15.179359**
 
 - 8 threads:
   - `./masker -n 10 -t 8 /user/cruz/DipBD/2017-2/AC03/images/chrono.png chrono_blur_8_threads.png`
-  - 8.960226
+  - **8.960226**
 
 - 16 threads:
   - `./masker -n 10 -t 16 /user/cruz/DipBD/2017-2/AC03/images/chrono.png chrono_blur_16_threads.png`
-  -  8.699309
+  -  **8.699309**
 
 ### Original
 ![chrono](https://user-images.githubusercontent.com/4138880/33526770-9785fdb8-d824-11e7-9f66-f7fb7b104a8d.png)
@@ -91,23 +91,23 @@
 
 - 1 threads:
   - `./masker -n 10 -t 1 /user/cruz/DipBD/2017-2/AC03/images/really_big.png really_big_blur_1_threads.png`
-  - 594.896286   
+  - **594.896286**
 
 - 2 threads:
   - `./masker -n 10 -t 2 /user/cruz/DipBD/2017-2/AC03/images/really_big.png really_big_blur_2_threads.png`
-  - 326.654121
+  - **326.654121**
 
 - 4 threads:
   - `./masker -n 10 -t 4 /user/cruz/DipBD/2017-2/AC03/images/really_big.png really_big_blur_4_threads.png`
-  - 181.531983
+  - **181.531983**
 
 - 8 threads:
   - `./masker -n 10 -t 8 /user/cruz/DipBD/2017-2/AC03/images/really_big.png really_big_blur_8_threads.png`
-  - 119.688207
+  - **119.688207**
 
 - 16 threads:
   - `./masker -n 10 -t 16 /user/cruz/DipBD/2017-2/AC03/images/really_big.png really_big_blur_16_threads.png`
-  - 115.690361
+  - **115.690361**
 
 ### Original
 ![captura de pantalla 2017-12-03 a la s 12 25 52](https://user-images.githubusercontent.com/4138880/33526809-2c06968c-d825-11e7-8713-f55152ba02cf.png)
@@ -128,43 +128,44 @@
 
 ### 1 thread
 
-  | ash.png | chrono.png | really_big.png
--- | -- | -- | --
-1 thread | 3,455196 | 47,975390 | 594,896286
-speedup | 1,00 | 1,00 | 1,00
-eficiencia | 1,00 | 1,00 | 1,00
+
+           | ash.png    | chrono.png | really_big.png
+:--        |:--         |:--         |:--
+  1 thread | 3,455196   | 47,975390  | 594,896286
+   speedup | 1,00       | 1,00       | 1,00
+eficiencia | 1,00       | 1,00       | 1,00
 
 ### 2 thread
 
-  | ash.png | chrono.png | really_big.png
--- | -- | -- | --
-2 threads | 2,067860 | 28,555160 | 326,654121
-speedup | 1,67 | 1,68 | 1,82
-eficiencia | 0,84 | 0,84 | 0,91
+           | ash.png  | chrono.png| really_big.png
+:--        |:--       |:--        |:--
+2 threads  | 2,067860 | 28,555160 | 326,654121
+speedup    | 1,67     | 1,68      | 1,82
+eficiencia | 0,84     | 0,84      | 0,91
 
 ### 4 thread
 
-  | ash.png | chrono.png | really_big.png
--- | -- | -- | --
-4 threads | 0,995155 | 15,179359 | 181,531983
-speedup | 3,47 | 3,16 | 3,28
-eficiencia | 0,87 | 0,79 | 0,82
+           | ash.png  | chrono.png| really_big.png
+:--        |:--       |:--        |:--
+4 threads  | 0,995155 | 15,179359 | 181,531983
+speedup    | 3,47     | 3,16 | 3,28
+eficiencia | 0,87     | 0,79 | 0,82
 
 ### 8 thread
 
-  | ash.png | chrono.png | really_big.png
--- | -- | -- | --
-8 threads | 0,601378 | 8,960226 | 119,688207
-speedup | 5,75 | 5,35 | 4,97
-eficiencia | 0,72 | 0,67 | 0,62
+           | ash.png  |chrono.png| really_big.png
+:--        |:--       |:--       |:--
+8 threads  | 0,601378 | 8,960226 | 119,688207
+speedup    | 5,75     | 5,35     | 4,97
+eficiencia | 0,72     | 0,67     | 0,62
 
 ### 16 thread
 
-  | ash.png | chrono.png | really_big.png
--- | -- | -- | --
+           | ash.png  |chrono.png| really_big.png
+:--        |:--       |:--       |:--
 16 threads | 0,688396 | 8,699309 | 115,690361
-speedup | 5,0 | 5,5 | 5,1
-eficiencia | 0,31 | 0,34 | 0,32
+speedup    | 5,0      | 5,5      | 5,1
+eficiencia | 0,31     | 0,34     | 0,32
 
 ## Bonus
 
