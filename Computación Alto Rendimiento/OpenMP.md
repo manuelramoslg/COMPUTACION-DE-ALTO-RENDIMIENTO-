@@ -28,6 +28,11 @@
 
 - La cantidad de iteraciones serán 1, 2, 4, 8, 16 y utilizaremos 10 iteraciones.
 
+### Formulas:
+
+- **speedup** = T1/TN = T1 / ( T1 / N ).
+- **eff** = speedup / N.
+
 ## Pruebas imagen ash.png
 
 - 1 threads:
