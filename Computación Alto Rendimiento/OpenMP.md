@@ -26,12 +26,7 @@
 
 - El nodo seleccionado para hacer las purebas es el caleuche, para ingresar  `ssh grupo15@hercules.ing.puc.cl` y luego se ejecuta `ssh caleuche` para usar este nodo.
 
-- La cantidad de iteraciones serán 1, 2, 4, 8, 16 y utilizaremos 10 iteraciones.
-
-### Formulas:
-
-- **speedup** = T1/TN = T1 / ( T1 / N ).
-- **eff** = speedup / N.
+- La cantidad de threads serán 1, 2, 4, 8, 16 y utilizaremos 10 iteraciones.
 
 ## Pruebas imagen ash.png
 
@@ -123,6 +118,53 @@
 ![captura de pantalla 2017-12-03 a la s 13 29 22](https://user-images.githubusercontent.com/4138880/33527364-08ca26b2-d82e-11e7-89cc-7faf7ff8ecff.png)
 
 >   Está imagen es una referencia, la original es muy pesada y no se puede adjuntar, por el estilo de imagen no se nota mucho el efecto blur.
+
+## Métricas
+
+### Formulas:
+
+- **speedup** = T1 / TP.
+- **eff** = speedup / P.
+
+### 1 thread
+
+  | ash.png | chrono.png | really_big.png
+-- | -- | -- | --
+1 thread | 3,455196 | 47,975390 | 594,896286
+speedup | 1,00 | 1,00 | 1,00
+eficiencia | 1,00 | 1,00 | 1,00
+
+### 2 thread
+
+  | ash.png | chrono.png | really_big.png
+-- | -- | -- | --
+2 threads | 2,067860 | 28,555160 | 326,654121
+speedup | 1,67 | 1,68 | 1,82
+eficiencia | 0,84 | 0,84 | 0,91
+
+### 4 thread
+
+  | ash.png | chrono.png | really_big.png
+-- | -- | -- | --
+4 threads | 0,995155 | 15,179359 | 181,531983
+speedup | 3,47 | 3,16 | 3,28
+eficiencia | 0,87 | 0,79 | 0,82
+
+### 8 thread
+
+  | ash.png | chrono.png | really_big.png
+-- | -- | -- | --
+8 threads | 0,601378 | 8,960226 | 119,688207
+speedup | 5,75 | 5,35 | 4,97
+eficiencia | 0,72 | 0,67 | 0,62
+
+### 16 thread
+
+  | ash.png | chrono.png | really_big.png
+-- | -- | -- | --
+16 threads | 0,688396 | 8,699309 | 115,690361
+speedup | 5,0 | 5,5 | 5,1
+eficiencia | 0,31 | 0,34 | 0,32
 
 ## Bonus
 
