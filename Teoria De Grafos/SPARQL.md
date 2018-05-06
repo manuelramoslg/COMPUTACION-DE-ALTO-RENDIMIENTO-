@@ -37,3 +37,4 @@ SELECT DISTINCT ?country ?countryLabel ?hgovernment ?hgovernmentLabel ?yearsOfFu
 ORDER BY ?countryLabel
 ```
 
+![captura de pantalla 2018-05-06 a la s 11 24 19](https://user-images.githubusercontent.com/4138880/39674494-271170bc-5123-11e8-8002-b668e1d0663b.png)
